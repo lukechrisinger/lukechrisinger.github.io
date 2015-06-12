@@ -49,6 +49,11 @@ a:hover {
   
 }
 
+a:about {
+  color:#4b4b4b;
+  font-weight:300;
+}
+
 a small {
   font-size:25px;
   color:#393939;
