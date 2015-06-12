@@ -1,10 +1,10 @@
-@import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700);
 
 body {
   padding:50px;
   font:20px/1.5 Inconsolata, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
-  font-weight:400;
+  font-weight:300;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, ul, ol, table, pre, dl {
-  margin:0 0 22px;
+  margin:0 0 20px;
 }
 
 h1, h2, h3 {
@@ -22,6 +22,8 @@ h1, h2, h3 {
 
 h1 {
   font-size:28px;
+  font-weight:100;
+  color:#ff462a;
 }
 
 h2 {
