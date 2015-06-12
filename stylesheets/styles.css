@@ -29,6 +29,7 @@ h1 {
 
 h2 {
   color:#4b4b4b;
+  font-weight:300;
 }
 
 h3, h4, h5, h6 {
@@ -37,8 +38,15 @@ h3, h4, h5, h6 {
 
 a {
   color:#393939;
-  font-weight:400;
+  font-weight:100;
   text-decoration:none;
+}
+
+a hover {
+  color:#ABABAB;
+  font-weight:100;
+  text-decoration:none;
+  
 }
 
 a small {
