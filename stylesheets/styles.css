@@ -4,7 +4,7 @@ body {
   padding:50px;
   font:20px/1.5 Inconsolata, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
-  font-weight:300;
+  font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -160,8 +160,8 @@ header ul a strong {
 }
 
 section {
-  width:500px;
-  float:right;
+  width:700px;
+  float:left;
   padding-bottom:50px;
 }
 
