@@ -2,8 +2,8 @@
 
 body {
   padding:50px;
-  font:20px/1.5 Martel, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
+  font:20px/1.5 Josefin Sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#000000;
   font-weight:300;
 }
 
@@ -28,35 +28,23 @@ h1 {
 }
 
 h2 {
-  color:#4b4b4b;
+  color:#000000;
   font-weight:400;
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color:#000000;
 }
 
 a {
-  color:#393939;
+  color:#000000;
   font-weight:300;
   text-decoration:none;
-}
-
-a:hover {
-  color:#ABABAB;
-  font-weight:300;
-  text-decoration:none;
-  
-}
-
-a:about {
-  color:#4b4b4b;
-  font-weight:300;
 }
 
 a small {
   font-size:25px;
-  color:#393939;
+  color:#000000;
   margin-top:-0.6em;
   display:block;
 }
@@ -67,7 +55,7 @@ a small {
 }
 
 blockquote {
-  border-left:1px solid #e5e5e5;
+  border-left:1px solid #000000;
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
@@ -75,13 +63,13 @@ blockquote {
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
-  color:#333;
+  color:#000000;
   font-size:12px;
 }
 
 pre {
   padding:8px 15px;
-  background: #f8f8f8;
+  background: #000000;
   border-radius:5px;
   border:1px solid #e5e5e5;
   overflow-x: auto;
@@ -95,16 +83,16 @@ table {
 th, td {
   text-align:left;
   padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
+  border-bottom:1px solid #000000;
 }
 
 dt {
-  color:#444;
+  color:#000000;
   font-weight:700;
 }
 
 th {
-  color:#444;
+  color:#000000;
 }
 
 img {
