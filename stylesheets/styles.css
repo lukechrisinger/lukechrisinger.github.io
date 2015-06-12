@@ -4,11 +4,11 @@ body {
   padding:50px;
   font:20px/1.5 Roboto Slab, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
-  font-weight:300;
+  font-weight:100;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight:100;
+  font-weight:300;
   margin:0 0 20px;
   font-size:25px;
 }
@@ -23,8 +23,7 @@ h1, h2, h3 {
 
 h1 {
   font-size:28px;
-  font-weight:100;
-  color:#ff462a;
+ 
 }
 
 h2 {
