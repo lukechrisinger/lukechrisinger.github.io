@@ -2,7 +2,7 @@
 
 body {
   padding:50px;
-  font:20px/1.5 Inconsolata, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:30px/1.5 Inconsolata, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:300;
 }
@@ -21,7 +21,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:35px;
+  font-size:37px;
 }
 
 h2 {
@@ -39,7 +39,7 @@ a {
 }
 
 a small {
-  font-size:30px;
+  font-size:25px;
   color:#393939;
   margin-top:-0.6em;
   display:block;
