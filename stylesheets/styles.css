@@ -21,7 +21,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:30px;
+  font-size:35px;
 }
 
 h2 {
@@ -39,7 +39,7 @@ a {
 }
 
 a small {
-  font-size:20px;
+  font-size:30px;
   color:#393939;
   margin-top:-0.6em;
   display:block;
