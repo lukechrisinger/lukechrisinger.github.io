@@ -9,8 +9,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight:100;
-  color:#ff462a;
   margin:0 0 20px;
+  font-size:25px;
 }
 
 p, ul, ol, table, pre, dl {
