@@ -55,7 +55,7 @@ a small {
 }
 
 blockquote {
-  border-left:1px solid #000000;
+  border-left:0px solid #000000;
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
@@ -120,7 +120,7 @@ header ul {
   background: linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
 
   border-radius:5px;
-  border:1px solid #d2d2d2;
+  border:0px solid #d2d2d2;
   box-shadow:inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
   width:270px;
 }
@@ -128,7 +128,7 @@ header ul {
 header li {
   width:89px;
   float:left;
-  border-right:1px solid #d2d2d2;
+  border-right:0px solid #000000;
   height:40px;
 }
 
@@ -149,7 +149,7 @@ strong {
 
 header ul li + li {
   width:88px;
-  border-left:1px solid #fff;
+  border-left:0px solid #000000;
 }
 
 header ul li + li + li {
@@ -205,8 +205,8 @@ footer {
   }
 
   section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
+    border:0px solid #000000;
+    border-width:0px 0;
     padding:20px 0;
     margin:0 0 20px;
   }
