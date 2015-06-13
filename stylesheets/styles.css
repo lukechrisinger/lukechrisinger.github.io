@@ -1,8 +1,8 @@
-@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400);
+@import url(http://fonts.googleapis.com/css?family=Oxygen:400,300);
 
 body {
   padding:50px;
-  font:25px/1.5 Quicksand, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:25px/1.5 Oxygen, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#000000;
   font-weight:300;
 }
