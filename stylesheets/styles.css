@@ -1,21 +1,21 @@
-@import url(http://fonts.googleapis.com/css?family=Yantramanav:400,300);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body {
   padding:50px;
-  font:25px/1.5 Yantramanav, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:25px/1.5 Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#000000;
-  font-weight:300;
+  font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight:400;
+  font-weight:700;
   margin:0 0 20px;
   font-size:25px;
 }
 
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
-  font-weight:300;
+  font-weight:400;
 }
 
 h1, h2, h3 {
@@ -29,7 +29,7 @@ h1 {
 
 h2 {
   color:#000000;
-  font-weight:400;
+  font-weight:700;
 }
 
 h3, h4, h5, h6 {
