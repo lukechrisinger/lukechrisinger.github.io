@@ -1,7 +1,5 @@
-#LCDOTCOM 2.0
+#LCDOTCOM v3.0
 
-20150612
+as of 2015-06-12.
 
-The new home of LC DOT COM. Any advice on how to improve/clean up the site would be greatly appreciated. Thanks.
 
-Luke
