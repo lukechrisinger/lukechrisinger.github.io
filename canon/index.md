@@ -1,5 +1,3 @@
-| LCC314  | Luke Chrisinger & The Absolute Idealists | Vol. 1                                                      | EP       |
-|---------|------------------------------------------|-------------------------------------------------------------|----------|
 |         | Band Name                                | Album                                                       | EP/LP/SI |
 | LCC001  | Luke Chrisinger                          | Earth/Space                                                 | 2 x LP   |
 |         | Luke Chrisinger                          | Earth                                                       | LP       |
