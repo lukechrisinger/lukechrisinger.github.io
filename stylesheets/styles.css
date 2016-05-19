@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,500);
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400);
 
 body {
   padding:50px;
@@ -8,7 +8,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight:400;
+  font-weight:300;
   margin:0 0 20px;
   font-size:15px;
 }
@@ -30,12 +30,12 @@ h1, h2, h3 {
 
 h1 {
   font-size:28px;
- 
+
 }
 
 h2 {
   color:#000000;
-  font-weight:400;
+  font-weight:300;
 }
 
 h3, h4, h5, h6 {
@@ -150,7 +150,7 @@ header ul a {
 
 strong {
   color:#222;
-  font-weight:700;
+  font-weight:400;
 }
 
 header ul li + li {
@@ -170,7 +170,7 @@ header ul a strong {
 }
 
 section {
-  width:700px;
+  width:400px;
   float:left;
   padding-bottom:50px;
 }
