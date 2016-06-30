@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+*/
+<script>
+function loadCSS( href="skeleton.css" rel="stylesheet"){
+	"use strict";
+    </script>
+    <script>
+    function loadCSS( href="normalize.css" rel="stylesheet"){
+	"use strict";
+    </script>
+	// Arguments explained:
+	// `href` is the URL for your CSS file.
+	// `before` optionally defines the element we'll use as a reference for injecting our <link>
+	// By default, `before` uses the first <script> element in the page.
+	// However, since the order in which stylesheets are referenced matters, you might need a more specific location in your document.
+	// If so, pass a different reference element to the `before` argument and it'll insert before that instead
+	// note: `insertBefore` is used instead of `appendChild`, for safety re: http://www.paulirish.com/2011/surefire-dom-element-insertion/
+	var ss = window.document.createElement( "link" );
+	var ref = before || window.document.getElementsByTagName( "script" )[ 0 ];
+	var sheets = window.document.styleSheets;
+	ss.rel = "stylesheet";
+	ss.href = href;
+	// temporarily, set media to something non-matching to ensure it'll fetch without blocking render
+	ss.media = "only x";
+	// DEPRECATED
+	if( callback ) {
+		ss.onload = callback;
+	}
+
+	// inject link
+	ref.parentNode.insertBefore( ss, ref );
+	// This function sets the link's media back to `all` so that the stylesheet applies once it loads
+	// It is designed to poll until document.styleSheets includes the new sheet.
+	ss.onloadcssdefined = function( cb ){
+		var defined;
+		for( var i = 0; i < sheets.length; i++ ){
+			if( sheets[ i ].href && sheets[ i ].href === ss.href ){
+				defined = true;
+			}
+		}
+		if( defined ){
+			cb();
+		} else {
+			setTimeout(function() {
+				ss.onloadcssdefined( cb );
+			});
+		}
+	};
+	ss.onloadcssdefined(function() {
+		ss.media = media || "all";
+	});
+	return ss;
+}
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<title>LUKE CHRISINGER DOT COM</title>
+	<meta content="" name="description" />
+	<meta content="" name="Luke Chrisinger" /><!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<meta content="width=device-width, initial-scale=1" name="viewport" /><!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'><!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link href="/normalize.css" rel="stylesheet" />
+	<link href="/skeleton.css" rel="stylesheet" /><!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link href="/favicon.png" rel="icon" type="image/png" />
+</head>
+<body><!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="container">
+<div class="seven row">
+<div class="two column" style="margin-top: 30%">
+<a class="button button-primary" href="http://compromiserecordingsinc.bandcamp.com">SOLO</a>
+<a class="button button-primary" href="http://lukechrisingercollaborates.bandcamp.com">COLLABORATION</a> 
+<a class="button button-primary" href="http://www.lukechrisinger.com/canon">CANON</a> 
+<a class="button button-primary" href="http://lukechrisinger.tumblr.com/">PHOTO</a> 
+<a class="button button-primary" href="http://www.youtube.com/user/TheLukeChrisinger">VIDEO</a> 
+<a class="button button-primary" href="http://lukechrisinger.prosite.com/">DESIGN</a>
+<a class="button button-primary" href="http://lukechrisingerabstractionist.tumblr.com/">OTHER</a>
+<br>
+<div class="container">
+<div class="six row">
+<div class="two column" style="margin-top: 10%">
+<a class="button" href="http://en.wikipedia.org/wiki/Luke_Chrisinger">About</a>
+<a class= "button" href="mailto:info@lukechrisinger.com">Contact</a>
+<a class= "button" href="http://www.facebook.com/chrisinger.luke">Fa</a>
+<a class="button" href="http://www.twitter.com/lukechrisinger">Tw</a>
+<a class="button" href="http://plus.google.com/+lukechrisinger?rel=author">G+</a>
+<a class="button" href="http://www.instagram.com/lukechrisinger">In</a>
+</div>
+</div>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– --></body>
+</html>
