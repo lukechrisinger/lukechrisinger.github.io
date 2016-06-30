@@ -2,7 +2,8 @@
 
 body {
   padding:50px;
-  font:20px/1.5 Source Code Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:20px/1.5
+  font-family: 'Source Code Pro', 'Courier New', Courier, Monospace;
   color:#000000;
   font-weight:300;
 }
@@ -15,7 +16,8 @@ h1, h2, h3, h4, h5, h6 {
 
 a:hover {background-color: #0d0d0d; text-decoration: none;}
 
-a:link {font-weight: 400;}
+a:link {font-weight: 400;
+  font-size: 15px}
 
 a:link {text-decoration: underline;}
 
