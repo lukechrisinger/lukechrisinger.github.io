@@ -1,8 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400);
 
 body {
-  padding:150px;
-  font:20px/1.5 "Source Code Pro", Courier, monospace;
+  padding:50px;
+  font:20px/1.5 Source Code Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#000000;
   font-weight:300;
 }
@@ -15,8 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a:hover {background-color: #0d0d0d; text-decoration: none;}
 
-a:link {font-weight: 400;
-  font-size: 15px}
+a:link {font-weight: 400;}
 
 a:link {text-decoration: underline;}
 
@@ -264,6 +263,3 @@ footer {
     color:#444;
   }
 }
-/*
-  Write your own styles here.
-*/
