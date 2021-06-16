@@ -2,7 +2,7 @@ title: LUKE CHRISINGER DOT COM
 description: 
 google_analytics: 
 show_downloads: true
-theme: jekyll-serif-theme
+theme: jekyll-theme-minimal
 
 gems:
   - jekyll-mentions
