@@ -261,5 +261,21 @@ footer {
     padding:0.4in;
     font-size:12pt;
     color:#444;
+
+    @media screen and (prefers-color-scheme: dark) {
+  p {
+    color: #fff;
+  }
+}
+
+    @media screen and (prefers-color-scheme: light) {
+  p {
+    color: #000;
+  }
+}
+    <meta name="color-scheme" content="dark light">
+    :root {
+  color-scheme: light dark;
+}
   }
 }
