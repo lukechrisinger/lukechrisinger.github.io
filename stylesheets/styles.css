@@ -3,7 +3,7 @@
 body {
   padding:50px;
   font:20px/1.5 'Source Code Pro', "Courier New", Courier, "Lucida Console", Monaco, monospace;
-  color:#000000;
+  color:#fff;
   font-weight:300;
 }
 
@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size:15px;
 }
 
-a:hover {background-color: #0d0d0d; text-decoration: none;}
+a:hover {background-color: #00000; text-decoration: none;}
 
 a:link {font-weight: 400;}
 
