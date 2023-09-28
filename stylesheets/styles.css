@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size:15px;
 }
 
-a:hover {background-color: #00000; text-decoration: none;}
+a:hover {background-color: #ff; text-decoration: none;}
 
 a:link {font-weight: 400;}
 
@@ -34,23 +34,23 @@ h1 {
 }
 
 h2 {
-  color:#000000;
+  color:#ff;
   font-weight:300;
 }
 
 h3, h4, h5, h6 {
-  color:#000000;
+  color:#ff;
 }
 
 a {
-  color:#000000;
+  color:#ff;
   font-weight:300;
   text-decoration:none;
 }
 
 a small {
   font-size:25px;
-  color:#000000;
+  color:#ff;
   margin-top:-0.6em;
   display:block;
 }
@@ -61,7 +61,7 @@ a small {
 }
 
 blockquote {
-  border-left:1px solid #000000;
+  border-left:1px solid #ff;
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
@@ -69,13 +69,13 @@ blockquote {
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
-  color:#000000;
+  color:#ff;
   font-size:12px;
 }
 
 pre {
   padding:8px 15px;
-  background: #000000;
+  background: #00;
   border-radius:5px;
   border:1px solid #e5e5e5;
   overflow-x: auto;
@@ -89,16 +89,16 @@ table {
 th, td {
   text-align:left;
   padding:5px 10px;
-  border-bottom:1px solid #000000;
+  border-bottom:1px solid #ff;
 }
 
 dt {
-  color:#000000;
+  color:#ff;
   font-weight:700;
 }
 
 th {
-  color:#000000;
+  color:#ff;
 }
 
 img {
@@ -134,14 +134,14 @@ header ul {
 header li {
   width:89px;
   float:left;
-  border-right:1px solid #d2d2d2;
+  border-right:1px solid #00;
   height:40px;
 }
 
 header ul a {
   line-height:1;
   font-size:11px;
-  color:#999;
+  color:#ff;
   display:block;
   text-align:center;
   padding-top:6px;
