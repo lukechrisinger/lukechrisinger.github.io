@@ -3,7 +3,7 @@
 body {
   padding:50px;
   font:20px/1.5 'Source Code Pro', "Courier New", Courier, "Lucida Console", Monaco, monospace;
-  color:#fff;
+  color:#000000;
   font-weight:300;
 }
 
@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size:15px;
 }
 
-a:hover {background-color: #ff; text-decoration: none;}
+a:hover {background-color: #0d0d0d; text-decoration: none;}
 
 a:link {font-weight: 400;}
 
@@ -34,23 +34,23 @@ h1 {
 }
 
 h2 {
-  color:#ff;
+  color:#000000;
   font-weight:300;
 }
 
 h3, h4, h5, h6 {
-  color:#ff;
+  color:#000000;
 }
 
 a {
-  color:#ff;
+  color:#000000;
   font-weight:300;
   text-decoration:none;
 }
 
 a small {
   font-size:25px;
-  color:#ff;
+  color:#000000;
   margin-top:-0.6em;
   display:block;
 }
@@ -61,7 +61,7 @@ a small {
 }
 
 blockquote {
-  border-left:1px solid #ff;
+  border-left:1px solid #000000;
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
@@ -69,13 +69,13 @@ blockquote {
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
-  color:#ff;
+  color:#000000;
   font-size:12px;
 }
 
 pre {
   padding:8px 15px;
-  background: #00;
+  background: #000000;
   border-radius:5px;
   border:1px solid #e5e5e5;
   overflow-x: auto;
@@ -89,16 +89,16 @@ table {
 th, td {
   text-align:left;
   padding:5px 10px;
-  border-bottom:1px solid #ff;
+  border-bottom:1px solid #000000;
 }
 
 dt {
-  color:#ff;
+  color:#000000;
   font-weight:700;
 }
 
 th {
-  color:#ff;
+  color:#000000;
 }
 
 img {
@@ -134,14 +134,14 @@ header ul {
 header li {
   width:89px;
   float:left;
-  border-right:1px solid #00;
+  border-right:1px solid #d2d2d2;
   height:40px;
 }
 
 header ul a {
   line-height:1;
   font-size:11px;
-  color:#ff;
+  color:#999;
   display:block;
   text-align:center;
   padding-top:6px;
@@ -261,21 +261,5 @@ footer {
     padding:0.4in;
     font-size:12pt;
     color:#444;
-
-    @media screen and (prefers-color-scheme: dark) {
-  p {
-    color: #fff;
-  }
-}
-
-    @media screen and (prefers-color-scheme: light) {
-  p {
-    color: #000;
-  }
-}
-    <meta name="color-scheme" content="dark light">
-    :root {
-  color-scheme: light dark;
-}
   }
 }
