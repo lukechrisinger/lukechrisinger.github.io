@@ -3,7 +3,7 @@
 body {
   padding:50px;
   font:20px/1.5 'Source Code Pro', "Courier New", Courier, "Lucida Console", Monaco, monospace;
-  color:#000000;
+  color:#dddddd;
   font-weight:300;
 }
 
@@ -34,23 +34,23 @@ h1 {
 }
 
 h2 {
-  color:#000000;
+  color:#dddddd;
   font-weight:300;
 }
 
 h3, h4, h5, h6 {
-  color:#000000;
+  color:#dddddd;
 }
 
 a {
-  color:#000000;
+  color:#dddddd;
   font-weight:300;
   text-decoration:none;
 }
 
 a small {
   font-size:25px;
-  color:#000000;
+  color:#dddddd;
   margin-top:-0.6em;
   display:block;
 }
@@ -61,7 +61,7 @@ a small {
 }
 
 blockquote {
-  border-left:1px solid #000000;
+  border-left:1px solid #dddddd;
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
@@ -69,13 +69,13 @@ blockquote {
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
-  color:#000000;
+  color:#dddddd;
   font-size:12px;
 }
 
 pre {
   padding:8px 15px;
-  background: #000000;
+  background: #dddddd;
   border-radius:5px;
   border:1px solid #e5e5e5;
   overflow-x: auto;
@@ -89,16 +89,16 @@ table {
 th, td {
   text-align:left;
   padding:5px 10px;
-  border-bottom:1px solid #000000;
+  border-bottom:1px solid #dddddd;
 }
 
 dt {
-  color:#000000;
+  color:#dddddd;
   font-weight:700;
 }
 
 th {
-  color:#000000;
+  color:#dddddd;
 }
 
 img {
@@ -118,12 +118,12 @@ header ul {
   padding:0;
 
   background: #eee;
-  background: -moz-linear-gradient(top, #f8f8f8 0%, #000000 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#000000));
-  background: -webkit-linear-gradient(top, #f8f8f8 0%,#000000 100%);
-  background: -o-linear-gradient(top, #f8f8f8 0%,#000000 100%);
-  background: -ms-linear-gradient(top, #f8f8f8 0%,#000000 100%);
-  background: linear-gradient(top, #f8f8f8 0%,#000000 100%);
+  background: -moz-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
+  background: -webkit-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+  background: -o-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+  background: -ms-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+  background: linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
 
   border-radius:5px;
   border:1px solid #d2d2d2;
